@@ -2,3 +2,44 @@ h2{
     font-family: cursive;
     font-size: 35px;
 }
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "img1 img2 img3 img4"
+      "img5 video- video- img7"
+      "img6 video- video- img8"
+      "img9 img10 img11 img12";
+  }
+  
+  .video- { grid-area: video-; }
+  
+  .img1 { grid-area: img1; 
+    width: 100%;
+}
+  
+  .img2 { grid-area: img2; }
+  
+  .img3 { grid-area: img3; }
+  
+  .img4 { grid-area: img4; }
+  
+  .img5 { grid-area: img5; }
+  
+  .img6 { grid-area: img6; }
+  
+  .img7 { grid-area: img7; }
+  
+  .img8 { grid-area: img8; }
+  
+  .img9 { grid-area: img9; }
+  
+  .img10 { grid-area: img10; }
+  
+  .img11 { grid-area: img11; }
+  
+  .img12 { grid-area: img12; }
+  
